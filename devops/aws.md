@@ -11,26 +11,18 @@
 - Configure AWS CLI 
 - Set up CloudTrail
 
-### K7 Tech Root account
+### Root account
 
-**Email**: k7tech.ops@gmail.com  
-**Name**: kseventech  
-**Account ID**: 053066921341
+Root account should be used rarely, and instead, create a dedicated IAM account for accessing dashboard with admin privilieges.
 
-### IAM 
+### Common IAM roles 
+
+These are the common IAM roles that every account should have.
 
 **User name**: admin  
-**Access**: AWS Management Console access  
 **Policies**: Billing, AdministratorAccess  
 **Use case**: For accessing the AWS dashboard instead of using root account  
 
 **User name**: cli-admin  
-**Access**: Programmatic access  
 **Policies**: AdministratorAccess   
 **Use case**: For managing AWS account trough CLI and Terraform  
-
-**User name**: ecr-user  
-**Access**: Programmatic access  
-**Policies**: AmazonEC2ContainerRegistryPowerUser   
-**Use case**: For uploading docker images to Amazon container registry ECR
-
