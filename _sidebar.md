@@ -4,6 +4,7 @@
 - Universal 
 	- [Git](universal/git.md)
 	- [Git Hosts](universal/git-hosts.md)
+	- [Payment services](universal/payment-services.md)
 
 - Frontend Development
 
