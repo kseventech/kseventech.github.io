@@ -1,7 +1,7 @@
 - [Intro](intro.md)
 - [Rules](rules.md)
-- Git
-    - [Git](git/git.md)
+- [Git](git.md)
+
 - Backend
     - [GraphQL](backend/graphql/graphql.md)
         - [Subscriptions](backend/graphql/subscriptions.md)
